@@ -1,0 +1,33 @@
+.container {
+  width: 600px;
+  border: 1px solid gray;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: lightblue;
+  box-sizing: border-box;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.imageContainer {
+  width: 200px;
+  height: 200px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+}
+
+.infoContainer {
+  margin-top: 16px;
+}
+
+.infoContainer > p {
+  margin-bottom: 8px;
+}
